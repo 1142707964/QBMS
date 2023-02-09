@@ -1,0 +1,58 @@
+body {
+    /*background: url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg') no-repeat;*/
+    background: url('/images/bookshelf.jpg') no-repeat;
+    background-size: 100% 130%;
+}
+
+h2 {
+    color: #ffffff90;
+    margin-top: 5%;
+}
+
+.inputArea {
+    border: 0;
+    width: 60%;
+    font-size: 15px;
+    color: #fff;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    padding: 5px 10px;
+    outline: none;
+    margin-top: 10px;
+}
+
+#button {
+    margin-top: 50px;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    /*background-image: linear-gradient(to right, #30cfd0, #330867);*/
+    background-image: linear-gradient(to right, #dbb137, #a02828);
+    opacity: 0.8;
+}
+#button:hover{
+    /*background: linear-gradient(to right, #2babac, #27074e);*/
+    background: linear-gradient(to right, #ac8b2c, #7d1f1f);
+}
+#button:active{
+    background: linear-gradient(to right, #907526, #611818);
+}
+
+.msg{
+    margin-top: 20px;
+    color: #d3ecf3;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+a:hover{
+    color: #eece6d;
+}
+a:active{
+    color: #a38a41;
+}
